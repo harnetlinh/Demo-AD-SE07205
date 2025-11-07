@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100px"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="Add an item"
+        android:textColorLink="#FB0909" />
+
+    <TextView
+        android:id="@+id/tvTotalBill"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingStart="20px"
+        android:paddingLeft="10px"
+        android:paddingTop="15px"
+        android:text="TextView"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvReport"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingStart="15px"
+        android:paddingLeft="15px"
+        android:paddingTop="15px"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lvTasks"
+        android:layout_width="409dp"
+        android:layout_height="729dp" />
+</LinearLayout>
