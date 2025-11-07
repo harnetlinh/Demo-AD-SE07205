@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             Item item = AppData.ItemList.get(position);
 
             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-            builder.setTitle("Choose your action!");
+            builder.setTitle("Please, choose your action!");
             builder.setPositiveButton("Edit", (dialog, which) -> {
 
                 Intent intent = new Intent(MainActivity.this, EditTask.class);
